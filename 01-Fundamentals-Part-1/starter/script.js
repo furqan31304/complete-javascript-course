@@ -83,9 +83,8 @@ else{
 
 // 4th Task
 
-let x=400;
+let x=275;
 const tip=x>=50&&x<=300?x*(15/100):x*(20/100);
-console.log(tip);
 console.log(`Bill is ${x}`);
 console.log(`Tip is ${tip}`);
 console.log(`Bill with tip is ${tip+x}`);
