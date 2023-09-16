@@ -68,14 +68,25 @@ else{
 //     John's BMI is ${john_BMI}` )
 // }
 
-let team_gogi_average_score=(300+300+129)/3;
-let team_shoky_average_score=(88+91+110)/3;
-if(team_gogi_average_score>=100&& team_gogi_average_score>=team_shoky_average_score){
-    console.log(`Team Gogi Won the Match with ${team_gogi_average_score} points`);
-}
-else if(team_shoky_average_score>=100 &&team_shoky_average_score>=team_gogi_average_score){
-    console.log(`Team Shoky Won the Match with ${team_shoky_average_score} points`);
-}
-else{
-    console.log('Match WithDraw')
-}
+// let team_gogi_average_score=(300+300+129)/3;
+// let team_shoky_average_score=(88+91+110)/3;
+// if(team_gogi_average_score>=100&& team_gogi_average_score>=team_shoky_average_score){
+//     console.log(`Team Gogi Won the Match with ${team_gogi_average_score} points`);
+// }
+// else if(team_shoky_average_score>=100 &&team_shoky_average_score>=team_gogi_average_score){
+//     console.log(`Team Shoky Won the Match with ${team_shoky_average_score} points`);
+// }
+// else{
+//     console.log('Match WithDraw')
+// }
+
+
+// 4th Task
+
+let x=400;
+const tip=x>=50&&x<=300?x*(15/100):x*(20/100);
+console.log(tip);
+console.log(`Bill is ${x}`);
+console.log(`Tip is ${tip}`);
+console.log(`Bill with tip is ${tip+x}`);
+
